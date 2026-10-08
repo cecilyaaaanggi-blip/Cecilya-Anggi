@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d1d8e0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.container1 {
+    width: 360px;
+    padding: 35px 25px;
+    background-color: #ffffff;
+    border-radius: 24px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.container1 img {
+    width: 95px;
+    height: 125px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3.5px solid #2ecc71;
+    margin-bottom: 12px;
+}
+
+.container1 h1{
+    font-size: 20px;
+    color: #2c3e50;
+    margin: 0 0 5px 0;
+    font-weight: bold;
+}
+
+.container1 .sub-info {
+    font-size: 13px;
+    color: #7f8c8d;
+    margin: 2px 0;
+}
+
+.container1 h2 {
+    font-size: 14px;
+    color: #2980b9;
+    margin: 22px 0 8px 0;
+    font-weight: bold;
+}
+
+.container1 .deskripsi {
+    font-size: 12px;
+    color: #0d0e0f;
+    line-height: 1.6;
+    text-align: justify;
+    margin: 0;
+}
+
+.hobi-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.hobi-item {
+    background-color: #f1f2f6;
+    color: #386ac0;
+    padding: 8px 0;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.sosmed-group {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 5px;
+}
+
+.btn-sosmed {
+    display: inline-block;
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 7px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.btn-sosmed:hover {
+    background-color: #2980b9;
+}
