@@ -11,7 +11,7 @@ body {
 .container1 {
     width: 350px;
     padding: 40px;
-    background-color: pink;
+    background-color: rgb(219, 143, 240);
     text-align: center;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);

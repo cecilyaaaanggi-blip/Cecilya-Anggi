@@ -45,7 +45,7 @@ body {
 
 .container1 h2 {
     font-size: 14px;
-    color: #2980b9;
+    color: #2997b9;
     margin: 22px 0 8px 0;
     font-weight: bold;
 }
@@ -81,7 +81,7 @@ body {
 
 .btn-sosmed {
     display: inline-block;
-    background-color: #3498db;
+    background-color: #f3a6ca;
     color: #ffffff;
     padding: 7px 14px;
     border-radius: 6px;
@@ -92,5 +92,5 @@ body {
 }
 
 .btn-sosmed:hover {
-    background-color: #2980b9;
+    background-color: #ea3a84;
 }
